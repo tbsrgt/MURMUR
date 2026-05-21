@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;550;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-cream-50: #FAFAFA;
+  --color-cream-100: #F4F4F5;
+  --color-cream-200: #E4E4E7;
+
+  --color-sage-100: #E4E4E7;
+  --color-sage-300: #71717A;
+  --color-sage-500: #18181B;
+  --color-sage-700: #09090B;
+  --color-sage-900: #09090B;
+
+  --color-terracotta-100: #FFEDD5;
+  --color-terracotta-300: #F97316;
+  --color-terracotta-500: #EA580C;
+  --color-terracotta-700: #9A3412;
+
+  --color-stone-100: #F4F4F5;
+  --color-stone-300: #D4D4D8;
+  --color-stone-500: #71717A;
+  --color-stone-700: #27272A;
+  --color-stone-900: #09090B;
+
+  --color-forest: #09090B;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-cream-50);
+    color: var(--color-stone-900);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    letter-spacing: -0.025em;
+  }
+}
+
+/* Custom scrollbar matching the raw modern climbing gym theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream-50);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-stone-300);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-stone-500);
+}
+
+/* High-performance industrial style custom adjustments */
+.bento-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E4E4E7;
+  border-radius: 16px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover {
+  border-color: #18181B;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.08);
+}

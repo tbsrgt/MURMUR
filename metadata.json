@@ -1,0 +1,7 @@
+{
+  "name": "murmur. | Bouldering Club",
+  "name_normalized": "murmur",
+  "description": "Premium industrial-design bouldering gym, athletic training hub, and specialty coffee bar in Paris. Raw walls, modern grips, and high-performance physical conditioning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
