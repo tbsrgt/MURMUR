@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Flame, Star, Activity, ArrowRight, ShieldCheck, Zap } from 'lucide-react';
+import gymHeroImage from '../../assets/images/murmur_gym_hero_1779357276135.png';
 
 export const Hero: React.FC = () => {
   // Simulating active climbers count
@@ -113,7 +114,7 @@ export const Hero: React.FC = () => {
               {/* Image Frame */}
               <div className="relative h-72 sm:h-80 w-full overflow-hidden rounded-2xl bg-stone-100">
                 <img
-                  src="/src/assets/images/murmur_gym_hero_1779357276135.png"
+                  src={gymHeroImage}
                   alt="murmur. Bouldering Club Paris Interior"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   referrerPolicy="no-referrer"

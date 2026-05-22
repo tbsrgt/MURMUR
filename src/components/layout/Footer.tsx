@@ -97,7 +97,7 @@ export const Footer: React.FC = () => {
             href="mailto:contact@murmur.fr"
             className="inline-block text-xs font-semibold bg-terracotta-500 text-white px-4 py-2 rounded-xl hover:bg-terracotta-700 transition-colors uppercase tracking-wider text-center w-full"
           >
-            Écrire à contact@murmur.fr
+            CONTACT@MURMUR.FR
           </a>
         </div>
 
