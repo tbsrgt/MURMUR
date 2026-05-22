@@ -13,8 +13,8 @@ export const StatsBar: React.FC = () => {
 
   const stats = [
     { value: '1100m²', label: 'Espace Escalade & Training' },
-    { value: `${bouldersCount}+`, label: 'Voies Renouvelées par semaine' },
-    { value: '7j/7', label: 'Accès 07h00 - 23h00' },
+    { value: `${bouldersCount}+`, label: 'Blocs Renouvelés par semaine' },
+    { value: '7j/7', label: 'Accès 09h00 - 23h30' },
     { value: 'KILTER', label: 'Board 45° LED Connectée' }
   ];
 

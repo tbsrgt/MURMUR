@@ -31,7 +31,7 @@ export const Essai: React.FC = () => {
       id: 'scaling',
       title: 'Initiation & Placement (Bloc Escalade)',
       duration: '75 min',
-      description: 'Pour s’initier en douceur aux bases de la grimpe de bloc, apprendre à chuter en sécurité et réussir vos premières voies d’équilibre sans forcer sur les bras.',
+      description: 'Pour s’initier en douceur aux bases de la grimpe de bloc, apprendre à chuter en sécurité et réussir vos premiers passages d’équilibre sans forcer sur les bras.',
       instructor: 'Marc T.',
       badge: 'Idéal Débutants',
       badgeStyle: 'sage' as const

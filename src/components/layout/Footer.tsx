@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Instagram, MapPin, Clock, Heart } from 'lucide-react';
+import { Logo } from './Logo';
 
 export const Footer: React.FC = () => {
   return (
@@ -10,9 +11,7 @@ export const Footer: React.FC = () => {
         {/* Column 1 - Brand Summary */}
         <div className="space-y-4">
           <div className="flex items-center">
-            <span className="font-serif text-xl font-extrabold tracking-tighter text-white uppercase">
-              murmur<span className="text-terracotta-500">.</span>
-            </span>
+            <Logo className="h-[18px] sm:h-[20px] md:h-[22px] lg:h-[25px] xl:h-[28px] w-auto text-white hover:text-stone-300 transition-colors" />
           </div>
           <p className="text-xs text-stone-300 leading-relaxed font-light">
             Club d’escalade de bloc haut de gamme, espace d’entraînement technique et barista bar de spécialité au cœur de Paris 11. Conçu pour le mouvement et la performance physique.
@@ -78,8 +77,7 @@ export const Footer: React.FC = () => {
             <li className="flex items-start space-x-2">
               <Clock size={14} className="text-terracotta-100 mt-0.5" />
               <span>
-                Lun - Ven: 07h00 - 23h00<br />
-                Sam - Dim: 08h00 - 21h00
+                7j/7: 09h00 - 23h30
               </span>
             </li>
           </ul>

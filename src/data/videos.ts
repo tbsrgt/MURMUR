@@ -84,7 +84,7 @@ export const videos: Video[] = [
   {
     id: 'v8',
     title: 'Enchaîner son premier 6b : Clés et Stratégies',
-    description: 'Analyse d\'une voie en 6b. Comment trouver les repos partiels cachés, optimiser les placements de pieds en drapeau (flagging), et économiser vos bras dans les passages déversants.',
+    description: 'Analyse d\'un bloc en 6b. Comment trouver les repos partiels cachés, optimiser les placements de pieds en drapeau (flagging), et économiser vos bras dans les passages déversants.',
     duration: '18:50',
     instructor: 'Marc T.',
     type: 'Technique',
@@ -127,8 +127,8 @@ export const videos: Video[] = [
   },
   {
     id: 'v12',
-    title: 'La Peur du Vol : reprogrammer son esprit',
-    description: 'Exercices pas à pas pour accepter la chute en toute sérénité. Apprenez à respirer à la limite de votre zone de confort et à faire confiance au système d\'assurage dynamique.',
+    title: 'La Peur de la Chute : reprogrammer son esprit',
+    description: 'Exercices pas à pas pour accepter l\'impact de la chute sur les tapis en toute sérénité. Apprenez à respirer à la limite de votre zone de confort et à faire pleinement confiance aux réceptions.',
     duration: '11:45',
     instructor: 'Léa R.',
     type: 'Mental',

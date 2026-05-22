@@ -24,7 +24,7 @@ export const plans: MembershipPlan[] = [
     period: 'mois',
     description: 'Accès illimité pour les grimpeurs réguliers. Sans engagement de durée, résiliable en un clic.',
     features: [
-      'Accès illimité 7j/7 de 7h00 à 23h00 à tous nos secteurs de bloc',
+      'Accès illimité 7j/7 de 9h00 à 23h30 à tous nos secteurs de bloc',
       'Accès prioritaire à notre espace d’entraînement technique & Kilter Board',
       'Location de chaussons techniques incluse (2 fois par mois)',
       'Accès complet au sauna traditionnel illimité',

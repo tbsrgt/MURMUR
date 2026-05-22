@@ -4,6 +4,7 @@ import { Menu, X, User, ShoppingBag, LogOut, ChevronDown } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { useCart } from '../../context/CartContext';
 import { cn } from '../../utils/cn';
+import { Logo } from './Logo';
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,11 +49,9 @@ export const Navbar: React.FC = () => {
         <div className="flex justify-between items-center h-20">
           
           {/* Logo Brand */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex items-center">
             <Link to="/" className="flex items-center group">
-              <span className="font-serif text-2xl font-extrabold tracking-tighter text-stone-950 uppercase group-hover:text-stone-700 transition-colors">
-                murmur<span className="text-terracotta-500">.</span>
-              </span>
+              <Logo className="h-[18px] sm:h-[20px] md:h-[22px] lg:h-[25px] xl:h-[28px] w-auto text-stone-950 group-hover:text-stone-700 transition-colors" />
             </Link>
           </div>
 

@@ -76,7 +76,7 @@ export const Hero: React.FC = () => {
                   <Activity size={14} className="stroke-[2.5]" />
                 </div>
                 <div>
-                  <h4 className="text-xs font-bold text-stone-900 uppercase">120 Blocs Neufs / Semaine</h4>
+                  <h4 className="text-xs font-bold text-stone-900 uppercase">150 Blocs Neufs / Semaine</h4>
                   <p className="text-[10px] text-stone-500 leading-normal font-light">Reset permanent par des ouvreurs nationaux.</p>
                 </div>
               </div>
@@ -127,7 +127,7 @@ export const Hero: React.FC = () => {
                 
                 <div className="absolute bottom-4 right-4 bg-white/95 backdrop-blur-sm text-stone-900 text-[10px] px-3 py-1.5 rounded-lg border border-zinc-200 flex items-center space-x-1.5 font-bold shadow-md">
                   <span className="h-2 w-2 rounded-full bg-emerald-500" />
-                  <span>OUVERT 07:00 - 23:00</span>
+                  <span>OUVERT 09:00 - 23:30</span>
                 </div>
               </div>
 
