@@ -9,10 +9,7 @@ export const Footer: React.FC = () => {
         
         {/* Column 1 - Brand Summary */}
         <div className="space-y-4">
-          <div className="flex items-center space-x-2">
-            <div className="h-9 w-9 rounded-lg bg-white flex items-center justify-center text-stone-900 font-serif font-black text-lg">
-              M
-            </div>
+          <div className="flex items-center">
             <span className="font-serif text-xl font-extrabold tracking-tighter text-white uppercase">
               murmur<span className="text-terracotta-500">.</span>
             </span>

@@ -49,11 +49,7 @@ export const Navbar: React.FC = () => {
           
           {/* Logo Brand */}
           <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center space-x-2.5 group">
-              {/* Dynamic Logo Symbol: Industrial Bouldering Symbol (M) */}
-              <div className="h-10 w-10 rounded-xl bg-stone-900 flex items-center justify-center text-white font-mono font-black text-xl tracking-tighter group-hover:bg-terracotta-500 transition-colors">
-                M
-              </div>
+            <Link to="/" className="flex items-center group">
               <span className="font-serif text-2xl font-extrabold tracking-tighter text-stone-950 uppercase group-hover:text-stone-700 transition-colors">
                 murmur<span className="text-terracotta-500">.</span>
               </span>
