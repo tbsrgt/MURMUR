@@ -24,13 +24,6 @@ export const Newsletter: React.FC = () => {
   return (
     <section className="py-20 bg-sage-100/40 relative overflow-hidden border-b border-stone-200/20">
       
-      {/* Decorative leaf motifs */}
-      <div className="absolute top-0 right-0 transform translate-x-12 -translate-y-12 opacity-15 pointer-events-none text-sage-700">
-        <svg width="200" height="200" viewBox="0 0 100 100" fill="currentColor">
-          <path d="M10,90 Q40,60 50,10 Q60,60 90,90 Z" />
-        </svg>
-      </div>
-
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-8 relative z-10">
         
         <div className="space-y-3">

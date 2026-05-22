@@ -16,12 +16,12 @@ export const Footer: React.FC = () => {
           <p className="text-xs text-stone-300 leading-relaxed font-light">
             Club d’escalade de bloc haut de gamme, espace d’entraînement technique et barista bar de spécialité au cœur de Paris 11. Conçu pour le mouvement et la performance physique.
           </p>
-          <div className="flex space-x-3 pt-2">
+          <div className="flex items-center space-x-3 pt-2">
             <a
               href="https://instagram.com"
               target="_blank"
               rel="noreferrer"
-              className="p-2 bg-stone-800 rounded-full hover:bg-terracotta-500 hover:text-white transition-all text-stone-300"
+              className="w-8 h-8 flex items-center justify-center bg-stone-800 rounded-full hover:bg-terracotta-500 hover:text-white transition-all text-stone-300"
               aria-label="Suivre sur Instagram"
             >
               <Instagram size={16} />
@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
               href="https://strava.com"
               target="_blank"
               rel="noreferrer"
-              className="px-3 py-1 bg-stone-800 rounded-full text-xs font-semibold uppercase hover:bg-terracotta-500 hover:text-white transition-all text-stone-300"
+              className="h-8 px-3.5 flex items-center justify-center bg-stone-800 rounded-full text-[10px] font-bold tracking-wider uppercase hover:bg-terracotta-500 hover:text-white transition-all text-stone-300"
             >
               Strava
             </a>
